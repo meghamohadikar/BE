@@ -1,0 +1,56 @@
+server:
+    port: 9916
+
+# API Registry client configuration
+eureka:
+    instance:
+        appname: ${spring.application.name}
+        healthCheckUrlPath: /production-support/health
+        statusPageUrlPath: /production-support/info
+        nonSecurePort: ${server.port}
+        metadata-map:
+            public: true
+            role: live
+    client:
+        serviceUrl:
+            defaultZone: http://${REGISTRY_HOST:localhost}:${REGISTRY_PORT:8080}/registry/eureka/
+
+# Configure Internal JWT handler
+sso:
+    jwt:
+        internal:
+            signature:
+                key:
+                    type: ENV
+                    value: SIG_SECRET_KEY
+
+# Define app defaults
+endpoints:
+    jmx:
+        domain: ${spring.application.name}
+
+spring:
+    jmx:
+        default-domain: ${spring.application.name}
+
+# Spring health monitoring
+management:
+    health:
+        jms:
+            enabled: false
+
+# PMS API configuration
+pms-api:
+    protocol: ${PMS_API_PROTOCOL:http}
+    host: ${PMS_API_HOST:localhost}
+    port: ${PMS_API_PORT:9091}
+    context: ${PMS_API_CONTEXT:api}
+
+# DiOne API configuration (not used for now but in a near future)
+dione-api:
+    protocol: ${DIONE_API_PROTOCOL:http}
+    host: ${DIONE_API_HOST:localhost}
+    port: ${DIONE_API_PORT:9090}
+    context: ${DIONE_API_CONTEXT:api}
+
+pms-url: http://localhost:9091/api

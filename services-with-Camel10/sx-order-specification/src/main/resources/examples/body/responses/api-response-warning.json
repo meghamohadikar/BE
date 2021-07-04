@@ -1,0 +1,26 @@
+{
+    "responseMessages": [
+        {
+            "message": "Message warning"
+        }
+    ],
+    "response": [
+        {
+            "caseId": "1",
+            "messageCode": "Capgemini - Sell - 200",
+            "description": "Credit Request",
+            "type": "Type 1",
+            "category": "Category 1",
+            "warningNature": "Strategy",
+            "warningSubNature": "Warning sub-nature 1",
+            "severity": "Severity 1",
+            "orderId": "1",
+            "orderSessionId": "123456",
+            "portfolioId": "001.000001234567",
+            "instrumentId": "001723456.00",
+            "clarificationType": "text",
+            "clarificationText": "User comment",
+            "clarificationStatus": "Clarification status 1"
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+#%RAML 1.0
+---
+#===============================================================
+#  References:
+#    - RAML Specification - https://github.com/raml-org/raml-spec/blob/master/versions/raml-10/raml-10.md
+#===============================================================
+title: sx-order-specification
+version: v1
+baseUri: "/{version}"
+mediaType:  application/json
+protocols: [ HTTP, HTTPS ]
+types:
+    DraftOrderSessionArrayType: |
+        {
+            "type": "array",
+            "items": {
+                "$ref": "schemas/body/common/summary-order-session.json"
+            }
+        }
+    WarningArrayType: |
+        {
+            "type": "array",
+            "items": {
+                "$ref": "schemas/body/common/warning.json"
+            }
+        }
+#===============================================================
+# API resource definitions
+#===============================================================
+/sxordersessions:
+    displayName: SX Order Sessions
+    /init:
+        post:
+            displayName: INIT SX Order Session
+            description: SX Order Session initialization
+            body:
+                application/json:
+                    type: string
+                    example: "001.1234567"
+            responses:
+                200:
+                    description: Returns an SxOrderSession initialized with features depending on portfolio properties
+                    body:
+                        application/json:
+                            schema: !include schemas/body/common/sx-order-session.json
+                            example: !include examples/body/common/sx-order-session.json
+                400:
+                    description: returns an SxOrderSession initialized with features depending on portfolio properties
+                    body:
+                        application/json:
+                            schema: !include schemas/body/errors/BadRequestResult.json
+                500:
+                    description: returns an SxOrderSession initialized with features depending on portfolio properties
+                    body:
+                        application/json:
+                              schema: !include schemas/body/errors/InternalServerErrorResult.json
+    /remove:
+        post:
+            displayName: Delete SX Order Session
+            description: Deletes an SxOrderSession and returns functionnal messages
+            body:
+                application/json:
+                    schema: !include schemas/body/requests/sx-order-session-remove-post.json
+                    example: !include examples/body/requests/sx-order-session-remove-post.json
+            responses:
+                200:
+                    description: Deletes an SxOrderSession and returns functionnal messages
+                    body:
+                        schema: !include schemas/body/common/response-messages.json
+                        example: !include examples/body/common/response-messages.json
+    /{sxOrderSessionId}:
+        post:
+            displayName: Put a Sx Order
+            description: SxOrderSession_SaveSxOrderSession
+            body:
+                application/json:
+                    schema: !include schemas/body/common/sx-order-session.json
+                    example: !include examples/body/common/sx-order-session.json
+            responses:
+                200:
+                    description: Save an SxOrderSession with all orders
+                    body:
+                        application/json:
+                            schema: !include schemas/body/common/api-response.json
+                            example: !include examples/body/common/result-message.json
+        /control:
+            put:
+                displayName: Control SX Order Session
+                description: SX Order Session control
+                body:
+                    application/json:
+                        schema: !include schemas/body/requests/sx-order-session-control-put.json
+                        example: !include examples/body/requests/sx-order-session-control-put.json
+                responses:
+                    200:
+                        description: OK
+                        body:
+                            application/json:
+                                schema: object
+                    201:
+                        description: Controls an SxOrderSession instruction details and return functionnal messages
+                        body:
+                            schema: !include schemas/body/common/api-response.json
+                            example: !include examples/body/common/response-messages.json
+        /sxorders/init:
+            post:
+                displayName: INIT SX Order
+                description: SX Order initialization from Sx Order Session ID and Intrument Code
+                queryParameters:
+                    instrumentCode:
+                        displayName: instrumentCode
+                        required: true
+                        type: string
+                    portfolioCode:
+                        displayName: portfolioCode
+                        required: true
+                        type: string
+                responses:
+                    200:
+                        description: Initializes an SxOrder from a instrument
+                        body:
+                            application/json:
+                                schema: !include schemas/body/responses/sx-order-init-post.json
+                                example: !include examples/body/responses/sx-order-init-post.json
+        /execute:
+            post:
+                displayName: SxOrderSession_ExecuteSxOrderSession
+                description: Controls and Execute an SxOrderSession and returns functional messages
+                responses:
+                    200:
+                        description: Sx Order Session executed
+                        body:
+                            application/json:
+                                type: null
+                    400:
+                        description: BadRequest
+                        body:
+                            application/json:
+                                schema: !include schemas/body/errors/error.json
+        /warnings:
+            get:
+                displayName: SxOrderSession_GetSxOrderSessionWarnings
+                responses:
+                    200:
+                        description: Get warnings from an sx order session
+                        body:
+                            application/json:
+                                schema: !include schemas/body/responses/api-response-warning.json
+                                example: !include examples/body/responses/api-response-warning.json
+            /clarify:
+                post:
+                    displayName: SxOrderSession_ClarifySxOrderSessionWarnings
+                    body:
+                        application/json:
+                            type: WarningArrayType
+                    responses:
+                        200:
+                            description: Get warnings from an sx order session
+                            body:
+                                application/json:
+                                    schema: !include schemas/body/responses/api-response-warning.json
+                                    example: !include examples/body/responses/api-response-warning.json
+
+/sxorders:
+    displayName: SX Orders
+    /complete:
+        put:
+            displayName: SxOrder_CompleteSxOrder
+            body:
+                application/json:
+                    schema: !include schemas/body/common/sx-order.json
+                    example: !include examples/body/common/sx-order.json
+            responses:
+                200:
+                    description: control and save an SxOrder item
+                    body:
+                        application/json:
+                            schema: !include schemas/body/responses/sample_SxOrderCompleteResponse.json
+                            example: !include examples/body/responses/sample_SxOrderCompleteResponse.json
+    /remove:
+        post:
+            displayName: Delete SX Orders
+            description: Deletes several SxOrders and returns empty json
+            body:
+                application/json:
+                    schema: !include schemas/body/requests/sx-orders-delete.json
+                    example: !include examples/body/requests/sx-orders-delete.json
+            responses:
+                200:
+                    description: Deletes an SxOrder and returns empty json
+                    body:
+                        application/json:
+                            schema: !include schemas/body/common/response-messages.json
+                            example: !include examples/body/common/response-messages.json
+    /cancel:
+        post:
+            displayName: SxOrder_CancelSxOrders
+            body:
+                application/json:
+                    schema: !include schemas/body/requests/sample_SxOrderCancelRequest.json
+                    example:  !include examples/body/requests/sample_SxOrderCancelRequest.json
+            responses:
+                200:
+                    description: Gets pending SxOrders from portfolio codes
+                    body:
+                        application/json:
+                            schema: !include schemas/body/common/response-messages.json
+                            example: !include examples/body/common/response-messages.json
+
+/users/me/sxordersessions:
+    displayName: SxOrderSession
+    get:
+        displayName: SxOrderSession_GetSxOrderSessionsByUser
+        queryParameters:
+            status:
+                displayName: status
+                required: true
+                type: string
+                enum: [ "DRAFT", "SENT", "SEND_ERROR", "OPEN", "CANCEL", "FAILED", "CONFIRM", "TIMEOUT", "SPLITTED", "EXECUTE_READY", "ARCHIVED" ]
+        responses:
+            200:
+                description: Gets open SxOrders by portfolio
+                body:
+                    application/json:
+                        type: DraftOrderSessionArrayType

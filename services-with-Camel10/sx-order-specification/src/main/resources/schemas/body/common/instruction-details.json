@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "clientWasAdvised": {
+            "type": "boolean"
+        },
+        "crossBoking": {
+            "type": "boolean"
+        },
+        "generateCostAndChargesDocuments": {
+            "type": "boolean"
+        },
+        "initiatedByClient": {
+            "type": "boolean"
+        },
+        "marketPlaceSpecifiedByClient": {
+            "type": "boolean"
+        },
+        "origin": {
+            "enum": [
+                "E",
+                "EM",
+                "F",
+                "ID",
+                "L",
+                "M",
+                "SM",
+                "SW",
+                "TI",
+                "TO",
+                "VO"
+            ],
+            "type": "string"
+        },
+        "portfolio": {
+            "$ref": "portfolio.json"
+        },
+        "purposeOfInvestments": {
+            "$ref": "purpose-of-investments.json"
+        },
+        "purposeOfInvestmentsJustification": {
+            "type": "string"
+        },
+        "receptionDate": {
+            "type": "string"
+        },
+        "selectedSignersCode": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

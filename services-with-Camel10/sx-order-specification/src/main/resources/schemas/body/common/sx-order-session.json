@@ -1,0 +1,51 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "funcResultCode": { "type": "string" },
+        "id": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "status": {
+            "enum": [ "DRAFT", "SENT", "SEND_ERROR", "DW_OPEN", "DW_CANCEL", "SX_FAILED", "SX_CONFIRM", "SX_TIMEOUT", "SPLITTED", "EXECUTE_READY", "ARCHIVED" ],
+            "type": "string"
+        },
+        "auditInformations": {
+            "$ref": "audit-informations.json"
+        },
+        "instruments": {
+            "type": "array",
+            "items": {
+                "$ref": "instrument.json"
+            }
+        },
+        "portfolios": {
+            "type": "array",
+            "items": {
+                "$ref": "portfolio.json"
+            }
+        },
+        "instructionDetails": {
+            "type": "array",
+            "items": {
+                "$ref": "instruction-details.json"
+            }
+        },
+        "owner": {
+            "$ref": "user.json"
+        },
+        "reloadDate": {
+            "type": "string"
+        },
+        "transmitDate": {
+            "type": "string"
+        },
+        "orders": {
+            "type": "array",
+            "items": {
+                "$ref": "sx-order.json"
+            }
+        }
+    }
+}

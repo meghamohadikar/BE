@@ -1,0 +1,103 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "accountedQuantity": {
+            "format": "double",
+            "type": "number"
+        },
+        "accountingDate": {
+            "type": "string"
+        },
+        "accruedInterest": {
+            "format": "double",
+            "type": "number"
+        },
+        "action": {
+            "enum": [ "BuyQuantity", "SellQuantity", "AdjustPctNav", "BuyAmount", "SellAmount", "BuyPctNav", "SellPctNav", "BuyPctPos", "SellPctPos", "SellShort", "BuyOpen", "SellOpen", "BuyClose", "SellClose", "NoBuy", "NoSell" ],
+            "type": "string"
+        },
+        "auditInformations": {
+            "$ref": "audit-informations.json"
+        },
+        "calculatedQuantity": {
+            "format": "double",
+            "type": "number"
+        },
+        "clientWasAdvised": {
+            "type": "boolean"
+        },
+        "costsAndCharges": {
+            "type": "array",
+            "items": {
+                "$ref": "costs-and-charges.json"
+            }
+        },
+        "externalId": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "navPercentageAfter": {
+            "format": "double",
+            "type": "number"
+        },
+        "navPercentageBefore": {
+            "format": "double",
+            "type": "number"
+        },
+        "objective": {
+            "format": "double",
+            "type": "number"
+        },
+        "omsPortfolio": {
+            "$ref": "oms-portfolio.json"
+        },
+        "operationNetAmount": {
+            "format": "double",
+            "type": "number"
+        },
+        "operationNetAmountPctNav": {
+            "format": "double",
+            "type": "number"
+        },
+        "orderId": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "pendingsOrderCount": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "quantityAfter": {
+            "format": "double",
+            "type": "number"
+        },
+        "quantityBefore": {
+            "format": "double",
+            "type": "number"
+        },
+        "roundLotForced": {
+            "format": "double",
+            "type": "number"
+        },
+        "sequenceNumber": {
+            "type": "string"
+        },
+        "traspasoAction": {
+            "enum": [
+                "StepIn",
+                "StepOut"
+            ],
+            "type": "string"
+        },
+        "valueDate": {
+            "type": "string"
+        },
+        "warnings": {
+            "type": "array",
+            "items": {
+                "$ref": "warning.json"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "creationDate": {
+      "type": "string"
+    },
+    "initiator": { "$ref": "user.json" },
+    "owner": { "$ref": "user.json" },
+    "status": { "type": "string" },
+    "functions": { "type": "string" },
+    "portfolios": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "instruments": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "orderDetails": { "type": "string" },
+    "canEdit": { "type": "boolean" },
+    "canDelete": { "type": "boolean" }
+  }
+}

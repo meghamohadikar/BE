@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "pageSize": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "pageNumber": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "totalPagesCount": {
+            "format": "int32",
+            "type": "integer",
+            "readOnly": true
+        },
+        "totalCount": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "sortingType": {
+            "enum": [
+                "asc",
+                "desc"
+            ],
+            "type": "string"
+        },
+        "sortingBy": {
+            "type": "string"
+        }
+    }
+}

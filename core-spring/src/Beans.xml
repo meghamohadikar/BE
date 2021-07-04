@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id = "helloWorld1" class = "com.core.spring.HelloWorld"></bean>
+   <bean id = "helloWorld" class = "com.core.spring.HelloWorld" autowire="constructor" ><!-- same as byType but applicable on constructor --> <!--autowire="byType" > connect proprty and name  with same type --> <!--autowire="byName">  connect"mi" proprty and name --><!--init-method = "init" destroy-method = "destroy" -->
+      <!-- <constructor-arg ref = "dependecyClass"/> -->
+       <property name = "message" value = "Hello World!" /> <!-- setting value to the message property using setter -->
+      <!-- <property name = "age" value = "10" /> -->
+       <!-- <property name = "dc" ref = "dependecyClass"/> --><!-- setter injection -->
+      <!-- <property name = "dc">
+      	 <bean id = "dependecyClass" class = "com.core.spring.DependecyClass"/> innerbean
+      </property> -->
+      <!-- <constructor-arg  value="Hello World!"/>
+      <constructor-arg name="msg2" value="Hello CG"/> byName 
+      <constructor-arg  value="10"/> byType --> 
+      <property name ="mi" ref = "mi"/> 
+   </bean>
+   
+   <bean class = "com.core.spring.InitHelloWorld" />
+   
+	<bean id = "helloIndia" class = "com.core.spring.HelloIndia"><!--  parent = "helloWorld" -->
+      		<property name = "message3" value = "Namaste India!"/>
+   	</bean>
+   	
+ 	<bean id = "dependecyClass" class = "com.core.spring.DependecyClass" primary="true">
+ 	</bean>
+ 
+ 	<bean id = "mi" class = "com.core.spring.DependencyClass2"></bean>
+ 
+ </beans>

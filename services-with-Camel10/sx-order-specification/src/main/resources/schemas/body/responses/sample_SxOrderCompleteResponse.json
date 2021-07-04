@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "sxOrder": {
+      "$ref": "../common/sx-order.json"
+    },
+    "responseMessages": {
+      "type": "array",
+      "items": {
+        "$ref": "../common/result-message.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "experiences": {
+            "type": "object",
+            "properties": {
+                "_0500": {
+                    "type": ["boolean", "null"]
+                },
+                "_1000": {
+                    "type": ["boolean", "null"]
+                },
+                "_3000": {
+                    "type": ["boolean", "null"]
+                },
+                "_3010": {
+                    "type": ["boolean", "null"]
+                },
+                "_3030": {
+                    "type": ["boolean", "null"]
+                },
+                "_3500": {
+                    "type": ["boolean", "null"]
+                },
+                "_7500": {
+                    "type": ["boolean", "null"]
+                },
+                "_7505": {
+                    "type": ["boolean", "null"]
+                },
+                "_7506": {
+                    "type": ["boolean", "null"]
+                },
+                "_9000": {
+                    "type": ["boolean", "null"]
+                },
+                "_9030": {
+                    "type": ["boolean", "null"]
+                },
+                "_9035": {
+                    "type": ["boolean", "null"]
+                },
+                "_9090": {
+                    "type": ["boolean", "null"]
+                },
+                "_9100": {
+                    "type": ["boolean", "null"]
+                }
+            }
+        },
+        "knowledges": {
+            "type": "object",
+            "properties": {
+                "_0500": {
+                    "type": ["boolean", "null"]
+                },
+                "_1000": {
+                    "type": ["boolean", "null"]
+                },
+                "_3000": {
+                    "type": ["boolean", "null"]
+                },
+                "_3010": {
+                    "type": ["boolean", "null"]
+                },
+                "_3030": {
+                    "type": ["boolean", "null"]
+                },
+                "_3500": {
+                    "type": ["boolean", "null"]
+                },
+                "_7500": {
+                    "type": ["boolean", "null"]
+                },
+                "_7505": {
+                    "type": ["boolean", "null"]
+                },
+                "_7506": {
+                    "type": ["boolean", "null"]
+                },
+                "_9000": {
+                    "type": ["boolean", "null"]
+                },
+                "_9030": {
+                    "type": ["boolean", "null"]
+                },
+                "_9035": {
+                    "type": ["boolean", "null"]
+                },
+                "_9090": {
+                    "type": ["boolean", "null"]
+                },
+                "_9100": {
+                    "type": ["boolean", "null"]
+                }
+            }
+        },
+        "optups": {
+            "type": "object",
+            "properties": {
+                "_0500": {
+                    "type": ["boolean", "null"]
+                },
+                "_1000": {
+                    "type": ["boolean", "null"]
+                },
+                "_3000": {
+                    "type": ["boolean", "null"]
+                },
+                "_3010": {
+                    "type": ["boolean", "null"]
+                },
+                "_3030": {
+                    "type": ["boolean", "null"]
+                },
+                "_3500": {
+                    "type": ["boolean", "null"]
+                },
+                "_7500": {
+                    "type": ["boolean", "null"]
+                },
+                "_7505": {
+                    "type": ["boolean", "null"]
+                },
+                "_7506": {
+                    "type": ["boolean", "null"]
+                },
+                "_9000": {
+                    "type": ["boolean", "null"]
+                },
+                "_9030": {
+                    "type": ["boolean", "null"]
+                },
+                "_9035": {
+                    "type": ["boolean", "null"]
+                },
+                "_9090": {
+                    "type": ["boolean", "null"]
+                },
+                "_9100": {
+                    "type": ["boolean", "null"]
+                }
+            }
+        }
+    }
+}

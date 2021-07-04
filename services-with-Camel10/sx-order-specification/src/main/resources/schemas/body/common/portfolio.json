@@ -1,0 +1,242 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "averagePRC": {
+            "format": "double",
+            "type": "number"
+        },
+        "bookingCenter": {
+            "type": "string"
+        },
+        "carp": {
+            "$ref": "code-name.json"
+        },
+        "cashAccounts": {
+            "type": "array",
+            "items": {
+                "$ref": "cash-account.json"
+            }
+        },
+        "categoryRM": {
+            "enum": [
+                "NO_GROUPING",
+                "GROUP_1",
+                "GROUP_2",
+                "GROUP_3",
+                "GROUP_4",
+                "GROUP_5",
+                "GROUP_6",
+                "GROUP_7",
+                "GROUP_8",
+                "GROUP_9",
+                "GROUP_10",
+                "GROUP_11",
+                "GROUP_12",
+                "GROUP_13",
+                "GROUP_14",
+                "GROUP_15",
+                "GROUP_16",
+                "GROUP_17",
+                "GROUP_18",
+                "GROUP_19",
+                "GROUP_20"
+            ],
+            "type": "string"
+        },
+        "cisaInScope": {
+            "type": "boolean"
+        },
+        "clientType": {
+            "$ref": "code-name.json"
+        },
+        "closingDate": {
+            "type": "string"
+        },
+        "code": {
+            "type": "string"
+        },
+        "company": {
+            "type": "string"
+        },
+        "companyNature": {
+            "$ref": "code-name.json"
+        },
+        "creationDate": {
+            "type": "string"
+        },
+        "crsStatus": {
+            "$ref": "code-name.json"
+        },
+        "custody": {
+            "type": "string"
+        },
+        "dutyToDisclose": {
+            "type": "string"
+        },
+        "externalPortfolioManager": {
+            "$ref": "code-name.json"
+        },
+        "feesPolicy": {
+            "type": "string"
+        },
+        "fidlegCategory": {
+            "type": "string"
+        },
+        "fidlegInScope": {
+            "type": "boolean"
+        },
+        "finderManager": {
+            "$ref": "code-name.json"
+        },
+        "investmentProfile": {
+            "enum": [
+                "NONE",
+                "PRESERVATION",
+                "ENHANCEMENT",
+                "GENERATION",
+                "GENERATION_PLUS"
+            ],
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "luganoConvention": {
+            "type": "string"
+        },
+        "managementType": {
+            "enum": [
+                "SUIV",
+                "ADVI",
+                "GERE"
+            ],
+            "type": "string"
+        },
+        "mifidCategory": {
+            "$ref": "code-name.json"
+        },
+        "mifidProtectionLevel": {
+            "$ref": "code-name.json"
+        },
+        "navInBookingCenterCurrency": {
+            "format": "double",
+            "type": "number"
+        },
+        "navInReferenceCurrency": {
+            "format": "double",
+            "type": "number"
+        },
+        "number": {
+            "type": "string"
+        },
+        "participants": {
+            "type": "array",
+            "items": {
+                "$ref": "participant.json"
+            }
+        },
+        "pme": {
+            "type": "string"
+        },
+        "portfolioManager": {
+            "$ref": "code-name.json"
+        },
+        "priiPsInScope": {
+            "type": "boolean"
+        },
+        "qualifiedInvestor": {
+            "type": "boolean"
+        },
+        "referenceCurrency": {
+            "type": "string"
+        },
+        "relationshipManager": {
+            "$ref": "code-name.json"
+        },
+        "riskProfile": {
+            "$ref": "code-name.json"
+        },
+        "serviceLevel": {
+            "enum": [
+                "NONE",
+                "CLASSIC",
+                "PREMIUM",
+                "PARTNER"
+            ],
+            "type": "string"
+        },
+        "servicingCenter": {
+            "type": "string"
+        },
+        "submittedToFATCA": {
+            "enum": [
+                "F_NON_US",
+                "F_US",
+                "F_NON_CONSENTING",
+                "F_RECALCITRANT",
+                "F_TOBE_REMED",
+                "F_HLP_NPFFI_DISC",
+                "F_HLP_NPFFI_NON_DISC",
+                "F_PENDING",
+                "F_OUT_OF_SCOPE"
+            ],
+            "type": "string"
+        },
+        "taxationProfile": {
+            "type": "string"
+        },
+        "taxationProfilePM": {
+            "$ref": "code-name.json"
+        },
+        "taxConformityStatus": {
+            "enum": [
+                "CONF_OUT_OF_SCOPE",
+                "CONF_DEEMED_NON_COMP",
+                "CONF_DEEMED_COMP",
+                "CONF_INTENT_COMP",
+                "CONF_COMP",
+                "CONF_EXIT",
+                "CONF_TOBE_REMED",
+                "CONF_PENDING"
+            ],
+            "type": "string"
+        },
+        "traspasoEnabled": {
+            "type": "boolean"
+        },
+        "unit": {
+            "type": "string"
+        },
+        "usTaxPool": {
+            "enum": [
+                "QI_POOL_000",
+                "QI_POOL_001",
+                "QI_POOL_002",
+                "QI_POOL_003",
+                "QI_POOL_051",
+                "QI_POOL_101",
+                "QI_POOL_102",
+                "QI_POOL_121",
+                "QI_POOL_122",
+                "QI_POOL_151",
+                "QI_POOL_152",
+                "QI_POOL_153",
+                "QI_POOL_154",
+                "QI_POOL_171",
+                "QI_POOL_301",
+                "QI_POOL_800",
+                "QI_POOL_900",
+                "QI_POOL_920",
+                "QI_POOL_930",
+                "QI_POOL_950",
+                "QI_POOL_960",
+                "QI_POOL_970"
+            ],
+            "type": "string"
+        },
+        "usTaxStatus": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "actions": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/order-action.json"
+            }
+        },
+        "orderNatures": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "orderTypes": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "instrumentOperationTypes": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "instrumentExchangePlaces": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "instrumentDividendPolicies": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "discountFees": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "depositaries": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "currencies": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "dealers": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/id-name.json"
+            }
+        },
+        "sxOrder": {
+            "$ref": "../common/sx-order.json"
+        },
+        "responseMessages": {
+            "type": "array",
+            "items": {
+                "$ref": "../common/result-message.json"
+            }
+        }
+    }
+}

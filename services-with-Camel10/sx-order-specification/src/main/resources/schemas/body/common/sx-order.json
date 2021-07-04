@@ -1,0 +1,162 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "funcResultCode": { "type": "string" },
+        "id": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "status": {
+            "enum": [ "DRAFT", "SENT", "SEND_ERROR", "DW_OPEN", "DW_CANCEL", "SX_FAILED", "SX_CONFIRM", "SX_TIMEOUT", "SPLITTED", "EXECUTE_READY", "ARCHIVED" ],
+            "type": "string"
+        },
+        "action": {
+            "enum": [
+                "BuyQuantity",
+                "SellQuantity",
+                "AdjustPctNav",
+                "BuyAmount",
+                "SellAmount",
+                "BuyPctNav",
+                "SellPctNav",
+                "BuyPctPos",
+                "SellPctPos",
+                "SellShort",
+                "BuyOpen",
+                "SellOpen",
+                "BuyClose",
+                "SellClose",
+                "NoBuy",
+                "NoSell"
+            ],
+            "type": "string"
+        },
+        "auditInformations": {
+            "$ref": "audit-informations.json"
+        },
+        "code": {
+            "type": "string"
+        },
+        "contractNumber": {
+            "type": "string"
+        },
+        "costsAndCharges": {
+            "type": "array",
+            "items": {
+                "$ref": "costs-and-charges.json"
+            }
+        },
+        "currency": {
+            "type": "string"
+        },
+        "dealer": {
+            "type": "string"
+        },
+        "dealerPrice": {
+            "$ref": "price.json"
+        },
+        "dealerRemark": {
+            "type": "string"
+        },
+        "dealNumber": {
+            "type": "string"
+        },
+        "depositary": {
+            "$ref": "code-name.json"
+        },
+        "dividendPolicy": {
+            "type": "string"
+        },
+        "externalId": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "feesMethod": {
+            "type": "string"
+        },
+        "fenicsDealNumber": {
+            "type": "string"
+        },
+        "instrument": {
+            "$ref": "instrument.json"
+        },
+        "lastPrice": {
+            "$ref": "price.json"
+        },
+        "limitPrice": {
+            "$ref": "price.json"
+        },
+        "marketPlace": {
+            "type": "string"
+        },
+        "operationNature": {
+            "enum": [
+                "Buy",
+                "Sell"
+            ],
+            "type": "string"
+        },
+        "operationNumber": {
+            "type": "string"
+        },
+        "operationType": {
+            "enum": [
+                "NONE",
+                "PCH",
+                "SAL",
+                "PON",
+                "SON",
+                "SOC",
+                "SSH",
+                "SCN",
+                "PCN",
+                "PCC",
+                "P_S",
+                "S_R",
+                "RED",
+                "SUB"
+            ],
+            "type": "string"
+        },
+        "orderNature": {
+            "enum": [
+                "SP",
+                "LO",
+                "SL"
+            ],
+            "type": "string"
+        },
+        "ordersDetails": {
+            "type": "array",
+            "items": {
+                "$ref": "sx-order-details.json"
+            }
+        },
+        "orderSessionId": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "orderType": {
+            "enum": [
+                "Standard",
+                "Phoned",
+                "External"
+            ],
+            "type": "string"
+        },
+        "traspasoAction": {
+            "enum": [
+                "StepIn",
+                "StepOut"
+            ],
+            "type": "string"
+        },
+        "warnings": {
+            "type": "array",
+            "items": {
+                "$ref": "warning.json"
+            }
+        }
+    }
+}

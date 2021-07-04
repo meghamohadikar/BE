@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "discretionaryInvestmentUniverse": {
+            "type": "string"
+        },
+        "internalCode": {
+            "type": "string"
+        },
+        "isin": {
+            "type": "string"
+        },
+        "lastPrice": {
+            "$ref": "instrument-price.json"
+        },
+        "name": {
+            "type": "string"
+        },
+        "preferedInvestmentUniverse": {
+            "type": "string"
+        },
+        "productRiskClassification": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string"
+        }
+    }
+}

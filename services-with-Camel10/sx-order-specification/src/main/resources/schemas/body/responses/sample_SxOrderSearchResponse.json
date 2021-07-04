@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "sxOrders",
+    "pager"
+    ],
+  "properties": {
+    "sxOrders": {
+      "type": "array",
+      "items": {
+        "$ref": "../common/sx-order.json"
+      }
+    }
+  }
+}

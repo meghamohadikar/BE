@@ -1,0 +1,147 @@
+{
+  "orderSessionId": 0,
+  "warnings": [
+    {
+      "caseId": "string",
+      "messageCode": "string",
+      "description": "string",
+      "type": "string",
+      "category": "string",
+      "warningNature": "None",
+      "warningSubNature": "string",
+      "severity": "string",
+      "orderId": "string",
+      "orderSessionId": "string",
+      "portfolioId": "string",
+      "instrumentId": "string",
+      "clarificationType": "string",
+      "clarificationText": "string",
+      "clarificationStatus": "string"
+    }
+  ],
+  "auditInformations": {
+    "funcResultCode": "string",
+    "id": 0,
+    "status": "DRAFT",
+    "createdBy": {
+      "id": "string",
+      "fullname": "string",
+      "trigram": "string"
+    },
+    "creationDate": "2019-07-12T12:19:01.995Z",
+    "updatedBy": {
+      "id": "string",
+      "fullname": "string",
+      "trigram": "string"
+    },
+    "updateDate": "2019-07-12T12:19:01.995Z"
+  },
+  "code": "string",
+  "currency": "string",
+  "feesMethod": "string",
+  "depositary": {
+    "id": 0,
+    "name": "string",
+    "code": "string",
+    "denomination": "string"
+  },
+  "operationNumber": "string",
+  "externalId": 0,
+  "operationNature": "Buy",
+  "action": "BuyQuantity",
+  "traspasoAction": "StepIn",
+  "orderNature": "SP",
+  "orderType": "Standard",
+  "operationType": "NONE",
+  "marketPlace": "string",
+  "dividendPolicy": "string",
+  "dealerRemark": "string",
+  "dealer": "string",
+  "dealerPrice": {
+    "currency": "string",
+    "value": 0,
+    "date": "2019-07-12T12:19:01.995Z"
+  },
+  "limitPrice": {
+    "currency": "string",
+    "value": 0,
+    "date": "2019-07-12T12:19:01.995Z"
+  },
+  "costsAndCharges": [
+    {}
+  ],
+  "dealNumber": "string",
+  "fenicsDealNumber": "string",
+  "contractNumber": "string",
+  "lastPrice": {
+    "currency": "string",
+    "value": 0,
+    "date": "2019-07-12T12:19:01.995Z"
+  },
+  "instrumentCode": "string",
+  "ordersDetails": [
+    {
+      "orderId": 0,
+      "client": {
+        "portfolioCode": "string",
+        "cashAccountCode": "string"
+      },
+      "externalId": 0,
+      "objective": 0,
+      "pendingsOrderCount": 0,
+      "calculatedQuantity": 0,
+      "accountedQuantity": 0,
+      "accountingDate": "2019-07-12T12:19:01.995Z",
+      "valueDate": "2019-07-12T12:19:01.995Z",
+      "roundLotForced": 0,
+      "operationNetAmount": 0,
+      "navPercentageBefore": 0,
+      "navPercentageAfter": 0,
+      "quantityBefore": 0,
+      "quantityAfter": 0,
+      "sequenceNumber": "string",
+      "accruedInterest": 0,
+      "action": "BuyQuantity",
+      "traspasoAction": "StepIn",
+      "costsAndCharges": [
+        {}
+      ],
+      "warnings": [
+        {
+          "caseId": "string",
+          "messageCode": "string",
+          "description": "string",
+          "type": "string",
+          "category": "string",
+          "warningNature": "None",
+          "warningSubNature": "string",
+          "severity": "string",
+          "orderId": "string",
+          "orderSessionId": "string",
+          "portfolioId": "string",
+          "instrumentId": "string",
+          "clarificationType": "string",
+          "clarificationText": "string",
+          "clarificationStatus": "string"
+        }
+      ],
+      "auditInformations": {
+        "funcResultCode": "string",
+        "id": 0,
+        "status": "DRAFT",
+        "createdBy": {
+          "id": "string",
+          "fullname": "string",
+          "trigram": "string"
+        },
+        "creationDate": "2019-07-12T12:19:01.995Z",
+        "updatedBy": {
+          "id": "string",
+          "fullname": "string",
+          "trigram": "string"
+        },
+        "updateDate": "2019-07-12T12:19:01.995Z"
+      }
+    }
+  ]
+}

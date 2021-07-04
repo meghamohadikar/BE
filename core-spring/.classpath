@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-aop-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-aop-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-aop-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-aspects-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-aspects-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-aspects-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-beans-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-beans-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-beans-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-context-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-context-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-context-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-context-support-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-context-support-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-context-support-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-core-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-core-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-core-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-expression-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-expression-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-expression-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-instrument-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-instrument-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-instrument-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-instrument-tomcat-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-instrument-tomcat-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-instrument-tomcat-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-jdbc-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-jdbc-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-jdbc-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-jms-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-jms-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-jms-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-messaging-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-messaging-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-messaging-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-orm-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-orm-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-orm-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-oxm-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-oxm-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-oxm-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-test-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-test-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-test-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-tx-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-tx-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-tx-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-web-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-web-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-web-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-webmvc-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-webmvc-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-webmvc-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-webmvc-portlet-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-webmvc-portlet-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-webmvc-portlet-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-websocket-4.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-websocket-4.1.4.RELEASE-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-framework-4.1.4.RELEASE/libs/spring-websocket-4.1.4.RELEASE-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/spring-aop-4.2.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Downloads/spring-tool-suite-3.9.11.RELEASE-e4.14.0-win32-x86_64/sts-bundle/sts-3.9.11.RELEASE/plugins/org.junit_4.12.0.v201504281640/junit.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://junit.org/junit4/javadoc/latest/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Documents/workspace-sts-3.9.11.RELEASE/spring-framework-4.1.4.RELEASE-dist/log4j.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

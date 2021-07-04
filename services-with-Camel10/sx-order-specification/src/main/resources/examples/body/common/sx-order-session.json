@@ -1,0 +1,813 @@
+{
+    "auditInformations": {
+        "funcResultCode": "string",
+        "id": 0,
+        "status": "DRAFT",
+        "createdBy": {
+            "id": "0",
+            "fullname": "Jane Doe",
+            "trigram": "JDO"
+        },
+        "creationDate": "2019-05-27T09:05:28.368Z",
+        "updatedBy": {
+            "id": "0",
+            "fullname": "Jane Doe",
+            "trigram": "JDO"
+        },
+        "updateDate": "2019-05-29T09:05:28.368Z"
+    },
+    "instruments": [
+        {
+            "isin": "IN1234567890",
+            "internalCode": "000000001.00",
+            "name": "Instrument 1",
+            "type": "Type 1",
+            "lastPrice": {
+                "currency": "CHF",
+                "price": 13594.58,
+                "date": "2019-05-27T09:05:28.368Z"
+            },
+            "productRiskClassification": "string",
+            "preferedInvestmentUniverse": "string",
+            "discretionaryInvestmentUniverse": "string"
+        }
+    ],
+    "portfolios": [
+        {
+            "company": "001",
+            "number": "000001212345",
+            "code": "001.000001212345",
+            "label": "Portfolio 1",
+            "navInReferenceCurrency": 400,
+            "navInBookingCenterCurrency": 10,
+            "referenceCurrency": "CHF",
+            "managementType": "SUIV",
+            "carp": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "investmentProfile": "NONE",
+            "servicingCenter": "string",
+            "riskProfile": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "serviceLevel": "NONE",
+            "relationshipManager": {
+                "id": 5,
+                "name": "Relationship Manager Name",
+                "code": "RMN",
+                "denomination": "Relationship Manager Denomination"
+            },
+            "categoryRM": "NO_GROUPING",
+            "portfolioManager": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "taxationProfilePM": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "unit": "string",
+            "pme": "string",
+            "externalPortfolioManager": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "finderManager": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "bookingCenter": "string",
+            "feesPolicy": "string",
+            "companyNature": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "creationDate": "2019-05-27T09:05:28.368Z",
+            "closingDate": "2019-05-27T09:05:28.368Z",
+            "averagePRC": 38,
+            "mifidCategory": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "mifidProtectionLevel": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "priiPsInScope": true,
+            "fidlegInScope": true,
+            "fidlegCategory": "string",
+            "cisaInScope": true,
+            "qualifiedInvestor": true,
+            "clientType": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "dutyToDisclose": "string",
+            "taxConformityStatus": "CONF_OUT_OF_SCOPE",
+            "luganoConvention": "string",
+            "usTaxStatus": "string",
+            "usTaxPool": "QI_POOL_000",
+            "submittedToFATCA": "F_NON_US",
+            "crsStatus": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "traspasoEnabled": true,
+            "taxationProfile": "string",
+            "cashAccounts": [
+                {
+                    "code": "001.6638685",
+                    "subType": "COMPTE COURANT",
+                    "incomeAccount": true,
+                    "currency": "EUR",
+                    "description": "Cash Account 1",
+                    "balance": 50006913.45,
+                    "accountedBalance": 0,
+                    "portfolioCode": "001.000001212345"
+                }
+            ],
+            "participants": [
+                {
+                    "code": "JDO",
+                    "id": 0,
+                    "portfolioCode": "001.000001212345",
+                    "company": "001",
+                    "portfolioNumber": "000001212345",
+                    "lastName": "DOE",
+                    "firstName": "Jane",
+                    "birthdate": "2019-01-01T09:05:28.369Z",
+                    "hasSignaturePower": true,
+                    "homeCountry": "Switzerland",
+                    "personType": "PP",
+                    "roles": [
+                        "string"
+                    ],
+                    "signature": "COLL2",
+                    "isRepresentative": false,
+                    "mifidCategory": "Retail",
+                    "knowledgeLevel": 0.25,
+                    "experienceLevel": 0.25,
+                    "knowledgesAndExperiences": {
+                        "experiences": {
+                            "_0500": true,
+                            "_1000": true,
+                            "_3000": false,
+                            "_3010": false,
+                            "_3030": false,
+                            "_3500": false,
+                            "_7500": false,
+                            "_7505": true,
+                            "_7506": false,
+                            "_9000": false,
+                            "_9030": false,
+                            "_9035": false,
+                            "_9090": false,
+                            "_9100": false
+                        },
+                        "knowledges": {
+                            "_0500": false,
+                            "_1000": true,
+                            "_3000": false,
+                            "_3010": false,
+                            "_3030": false,
+                            "_3500": false,
+                            "_7500": false,
+                            "_7505": false,
+                            "_7506": false,
+                            "_9000": false,
+                            "_9030": false,
+                            "_9035": false,
+                            "_9090": true,
+                            "_9100": true
+                        },
+                        "optups": {
+                            "_0500": null,
+                            "_1000": null,
+                            "_3000": null,
+                            "_3010": null,
+                            "_3030": null,
+                            "_3500": null,
+                            "_7500": null,
+                            "_7505": null,
+                            "_7506": null,
+                            "_9000": null,
+                            "_9030": null,
+                            "_9035": null,
+                            "_9090": null,
+                            "_9100": null
+                        }
+                    }
+                }
+            ],
+            "custody": "string"
+        }
+    ],
+    "instructionDetails": [
+        {
+            "portfolio": {
+                "company": "001",
+                "number": "000001212345",
+                "code": "001.000001212345",
+                "label": "Portfolio 1",
+                "navInReferenceCurrency": 400,
+                "navInBookingCenterCurrency": 10,
+                "referenceCurrency": "CHF",
+                "managementType": "SUIV",
+                "carp": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "investmentProfile": "NONE",
+                "servicingCenter": "string",
+                "riskProfile": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "serviceLevel": "NONE",
+                "relationshipManager": {
+                    "id": 5,
+                    "name": "Relationship Manager Name",
+                    "code": "RMN",
+                    "denomination": "Relationship Manager Denomination"
+                },
+                "categoryRM": "NO_GROUPING",
+                "portfolioManager": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "taxationProfilePM": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "unit": "string",
+                "pme": "string",
+                "externalPortfolioManager": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "finderManager": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "bookingCenter": "string",
+                "feesPolicy": "string",
+                "companyNature": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "creationDate": "2019-05-27T09:05:28.368Z",
+                "closingDate": "2019-05-27T09:05:28.368Z",
+                "averagePRC": 38,
+                "mifidCategory": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "mifidProtectionLevel": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "priiPsInScope": true,
+                "fidlegInScope": true,
+                "fidlegCategory": "string",
+                "cisaInScope": true,
+                "qualifiedInvestor": true,
+                "clientType": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "dutyToDisclose": "string",
+                "taxConformityStatus": "CONF_OUT_OF_SCOPE",
+                "luganoConvention": "string",
+                "usTaxStatus": "string",
+                "usTaxPool": "QI_POOL_000",
+                "submittedToFATCA": "F_NON_US",
+                "crsStatus": {
+                    "id": 0,
+                    "name": "string",
+                    "code": "string",
+                    "denomination": "string"
+                },
+                "traspasoEnabled": true,
+                "taxationProfile": "string",
+                "cashAccounts": [
+                    {
+                        "code": "001.6638685",
+                        "subType": "COMPTE COURANT",
+                        "incomeAccount": true,
+                        "currency": "EUR",
+                        "description": "Cash Account 1",
+                        "balance": 50006913.45,
+                        "accountedBalance": 0,
+                        "portfolioCode": "001.000001212345"
+                    }
+                ],
+                "participants": [
+                    {
+                        "code": "JDO",
+                        "id": 0,
+                        "portfolioCode": "001.000001212345",
+                        "company": "001",
+                        "portfolioNumber": "000001212345",
+                        "lastName": "DOE",
+                        "firstName": "Jane",
+                        "birthdate": "2019-01-01T09:05:28.369Z",
+                        "hasSignaturePower": true,
+                        "homeCountry": "Switzerland",
+                        "personType": "PP",
+                        "roles": [
+                            "string"
+                        ],
+                        "signature": "COLL2",
+                        "isRepresentative": false,
+                        "mifidCategory": "Retail",
+                        "knowledgeLevel": 0.25,
+                        "experienceLevel": 0.25,
+                        "knowledgesAndExperiences": {
+                            "experiences": {
+                                "_0500": true,
+                                "_1000": true,
+                                "_3000": false,
+                                "_3010": false,
+                                "_3030": false,
+                                "_3500": false,
+                                "_7500": false,
+                                "_7505": true,
+                                "_7506": false,
+                                "_9000": false,
+                                "_9030": false,
+                                "_9035": false,
+                                "_9090": false,
+                                "_9100": false
+                            },
+                            "knowledges": {
+                                "_0500": false,
+                                "_1000": true,
+                                "_3000": false,
+                                "_3010": false,
+                                "_3030": false,
+                                "_3500": false,
+                                "_7500": false,
+                                "_7505": false,
+                                "_7506": false,
+                                "_9000": false,
+                                "_9030": false,
+                                "_9035": false,
+                                "_9090": true,
+                                "_9100": true
+                            },
+                            "optups": {
+                                "_0500": null,
+                                "_1000": null,
+                                "_3000": null,
+                                "_3010": null,
+                                "_3030": null,
+                                "_3500": null,
+                                "_7500": null,
+                                "_7505": null,
+                                "_7506": null,
+                                "_9000": null,
+                                "_9030": null,
+                                "_9035": null,
+                                "_9090": null,
+                                "_9100": null
+                            }
+                        }
+                    }
+                ],
+                "custody": "string"
+            },
+            "origin": "E",
+            "receptionDate": "2019-05-27T09:05:28.369Z",
+            "clientWasAdvised": true,
+            "initiatedByClient": true,
+            "crossBoking": true,
+            "generateCostAndChargesDocuments": true,
+            "marketPlaceSpecifiedByClient": true,
+            "purposeOfInvestments": {
+                "other": true,
+                "portfolioRebalancing": true,
+                "cashAddedOrWithdraw": true,
+                "carpChanged": true
+            },
+            "purposeOfInvestmentsJustification": "Another justification",
+            "selectedSignersCode": [
+                "002"
+            ]
+        }
+    ],
+    "owner": {
+        "id": "0",
+        "fullname": "Jane Doe",
+        "trigram": "JDO"
+    },
+    "reloadDate": "2019-05-29T09:05:28.369Z",
+    "transmitDate": "2019-05-30T09:05:28.369Z",
+    "orders": [
+        {
+            "orderSessionId": 123456,
+            "warnings": [
+                {
+                    "caseId": "1",
+                    "messageCode": "Capgemini - Sell - 200",
+                    "description": "Credit Request",
+                    "type": "Type 1",
+                    "category": "Category 1",
+                    "warningNature": "Strategy",
+                    "warningSubNature": "Warning sub-nature 1",
+                    "severity": "Severity 1",
+                    "orderId": "1",
+                    "orderSessionId": "123456",
+                    "portfolioId": "001.000001234567",
+                    "instrumentId": "001723456.00",
+                    "clarificationType": "text",
+                    "clarificationText": "User comment",
+                    "clarificationStatus": "Clarification status 1"
+                }
+            ],
+            "auditInformations": {
+                "funcResultCode": "string",
+                "id": 0,
+                "status": "DRAFT",
+                "createdBy": {
+                    "id": "0",
+                    "fullname": "Jane Doe",
+                    "trigram": "JDO"
+                },
+                "creationDate": "2019-05-27T09:05:28.369Z",
+                "updatedBy": {
+                    "id": "0",
+                    "fullname": "Jane Doe",
+                    "trigram": "JDO"
+                },
+                "updateDate": "2019-05-27T09:05:28.369Z"
+            },
+            "code": "string",
+            "currency": "string",
+            "feesMethod": "string",
+            "depositary": {
+                "id": 0,
+                "name": "string",
+                "code": "string",
+                "denomination": "string"
+            },
+            "operationNumber": "string",
+            "externalId": 0,
+            "operationNature": "Buy",
+            "action": "BuyQuantity",
+            "traspasoAction": "StepIn",
+            "orderNature": "SP",
+            "orderType": "Standard",
+            "operationType": "NONE",
+            "marketPlace": "string",
+            "dividendPolicy": "string",
+            "dealerRemark": "string",
+            "dealer": "string",
+            "dealerPrice": {
+                "currency": "string",
+                "value": 0,
+                "date": "2019-05-27T09:05:28.369Z"
+            },
+            "limitPrice": {
+                "currency": "string",
+                "value": 0,
+                "date": "2019-05-27T09:05:28.369Z"
+            },
+            "costsAndCharges": [
+                {}
+            ],
+            "dealNumber": "string",
+            "fenicsDealNumber": "string",
+            "contractNumber": "string",
+            "lastPrice": {
+                "currency": "string",
+                "value": 0,
+                "date": "2019-05-27T09:05:28.369Z"
+            },
+            "instrument": {
+                "isin": "IN1234567890",
+                "internalCode": "000000001.00",
+                "name": "Instrument 1",
+                "type": "Type 1",
+                "lastPrice": {
+                    "currency": "CHF",
+                    "price": 13594.58,
+                    "date": "2019-05-27T09:05:28.368Z"
+                },
+                "productRiskClassification": "string",
+                "preferedInvestmentUniverse": "string",
+                "discretionaryInvestmentUniverse": "string"
+            },
+            "ordersDetails": [
+                {
+                    "clientWasAdvised": true,
+                    "operationNetAmountPctNav": 842.6,
+                    "orderId": 123456,
+                    "externalId": 0,
+                    "objective": 0,
+                    "pendingsOrderCount": 0,
+                    "calculatedQuantity": 0,
+                    "accountedQuantity": 0,
+                    "accountingDate": "2019-05-27T09:05:28.369Z",
+                    "valueDate": "2019-05-27T09:05:28.369Z",
+                    "roundLotForced": 0,
+                    "operationNetAmount": 0,
+                    "navPercentageBefore": 0,
+                    "navPercentageAfter": 0,
+                    "quantityBefore": 0,
+                    "quantityAfter": 0,
+                    "sequenceNumber": "string",
+                    "accruedInterest": 0,
+                    "action": "BuyQuantity",
+                    "traspasoAction": "StepIn",
+                    "costsAndCharges": [
+                        {}
+                    ],
+                    "omsPortfolio": {
+                        "cashAccount": {
+                            "code": "001.6638685",
+                            "subType": "COMPTE COURANT",
+                            "incomeAccount": true,
+                            "currency": "EUR",
+                            "description": "Cash Account 1",
+                            "balance": 50006913.45,
+                            "accountedBalance": 0,
+                            "portfolioCode": "001.000001212345"
+                        },
+                        "portfolio": {
+                            "company": "001",
+                            "number": "000001212345",
+                            "code": "001.000001212345",
+                            "label": "Portfolio 1",
+                            "navInReferenceCurrency": 400,
+                            "navInBookingCenterCurrency": 10,
+                            "referenceCurrency": "CHF",
+                            "managementType": "SUIV",
+                            "carp": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "investmentProfile": "NONE",
+                            "servicingCenter": "string",
+                            "riskProfile": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "serviceLevel": "NONE",
+                            "relationshipManager": {
+                                "id": 5,
+                                "name": "Relationship Manager Name",
+                                "code": "RMN",
+                                "denomination": "Relationship Manager Denomination"
+                            },
+                            "categoryRM": "NO_GROUPING",
+                            "portfolioManager": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "taxationProfilePM": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "unit": "string",
+                            "pme": "string",
+                            "externalPortfolioManager": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "finderManager": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "bookingCenter": "string",
+                            "feesPolicy": "string",
+                            "companyNature": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "creationDate": "2019-05-27T09:05:28.368Z",
+                            "closingDate": "2019-05-27T09:05:28.368Z",
+                            "averagePRC": 38,
+                            "mifidCategory": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "mifidProtectionLevel": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "priiPsInScope": true,
+                            "fidlegInScope": true,
+                            "fidlegCategory": "string",
+                            "cisaInScope": true,
+                            "qualifiedInvestor": true,
+                            "clientType": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "dutyToDisclose": "string",
+                            "taxConformityStatus": "CONF_OUT_OF_SCOPE",
+                            "luganoConvention": "string",
+                            "usTaxStatus": "string",
+                            "usTaxPool": "QI_POOL_000",
+                            "submittedToFATCA": "F_NON_US",
+                            "crsStatus": {
+                                "id": 0,
+                                "name": "string",
+                                "code": "string",
+                                "denomination": "string"
+                            },
+                            "traspasoEnabled": true,
+                            "taxationProfile": "string",
+                            "cashAccounts": [
+                                {
+                                    "code": "001.6638685",
+                                    "subType": "COMPTE COURANT",
+                                    "incomeAccount": true,
+                                    "currency": "EUR",
+                                    "description": "Cash Account 1",
+                                    "balance": 50006913.45,
+                                    "accountedBalance": 0,
+                                    "portfolioCode": "001.000001212345"
+                                }
+                            ],
+                            "participants": [
+                                {
+                                    "code": "JDO",
+                                    "id": 0,
+                                    "portfolioCode": "001.000001212345",
+                                    "company": "001",
+                                    "portfolioNumber": "000001212345",
+                                    "lastName": "DOE",
+                                    "firstName": "Jane",
+                                    "birthdate": "2019-01-01T09:05:28.369Z",
+                                    "hasSignaturePower": true,
+                                    "homeCountry": "Switzerland",
+                                    "personType": "PP",
+                                    "roles": [
+                                        "string"
+                                    ],
+                                    "signature": "COLL2",
+                                    "isRepresentative": false,
+                                    "mifidCategory": "Retail",
+                                    "knowledgeLevel": 0.25,
+                                    "experienceLevel": 0.25,
+                                    "knowledgesAndExperiences": {
+                                        "experiences": {
+                                            "_0500": true,
+                                            "_1000": true,
+                                            "_3000": false,
+                                            "_3010": false,
+                                            "_3030": false,
+                                            "_3500": false,
+                                            "_7500": false,
+                                            "_7505": true,
+                                            "_7506": false,
+                                            "_9000": false,
+                                            "_9030": false,
+                                            "_9035": false,
+                                            "_9090": false,
+                                            "_9100": false
+                                        },
+                                        "knowledges": {
+                                            "_0500": false,
+                                            "_1000": true,
+                                            "_3000": false,
+                                            "_3010": false,
+                                            "_3030": false,
+                                            "_3500": false,
+                                            "_7500": false,
+                                            "_7505": false,
+                                            "_7506": false,
+                                            "_9000": false,
+                                            "_9030": false,
+                                            "_9035": false,
+                                            "_9090": true,
+                                            "_9100": true
+                                        },
+                                        "optups": {
+                                            "_0500": null,
+                                            "_1000": null,
+                                            "_3000": null,
+                                            "_3010": null,
+                                            "_3030": null,
+                                            "_3500": null,
+                                            "_7500": null,
+                                            "_7505": null,
+                                            "_7506": null,
+                                            "_9000": null,
+                                            "_9030": null,
+                                            "_9035": null,
+                                            "_9090": null,
+                                            "_9100": null
+                                        }
+                                    }
+                                }
+                            ],
+                            "custody": "string"
+                        }
+                    },
+                    "warnings": [
+                        {
+                            "caseId": "1",
+                            "messageCode": "Capgemini - Sell - 200",
+                            "description": "Credit Request",
+                            "type": "Type 1",
+                            "category": "Category 1",
+                            "warningNature": "Strategy",
+                            "warningSubNature": "Warning sub-nature 1",
+                            "severity": "Severity 1",
+                            "orderId": "1",
+                            "orderSessionId": "123456",
+                            "portfolioId": "001.000001234567",
+                            "instrumentId": "001723456.00",
+                            "clarificationType": "text",
+                            "clarificationText": "User comment",
+                            "clarificationStatus": "Clarification status 1"
+                        }
+                    ],
+                    "auditInformations": {
+                        "funcResultCode": "string",
+                        "id": 0,
+                        "status": "DRAFT",
+                        "createdBy": {
+                            "id": "0",
+                            "fullname": "Jane Doe",
+                            "trigram": "JDO"
+                        },
+                        "creationDate": "2019-05-27T09:05:28.369Z",
+                        "updatedBy": {
+                            "id": "0",
+                            "fullname": "Jane Doe",
+                            "trigram": "JDO"
+                        },
+                        "updateDate": "2019-05-27T09:05:28.369Z"
+                    }
+                }
+            ]
+        }
+    ]
+}

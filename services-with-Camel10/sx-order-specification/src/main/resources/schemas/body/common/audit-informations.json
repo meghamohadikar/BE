@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "createdBy": {
+            "$ref": "user.json"
+        },
+        "creationDate": {
+            "type": "string"
+        },
+        "updateDate": {
+            "type": "string"
+        },
+        "updatedBy": {
+            "$ref": "user.json"
+        }
+    }
+}

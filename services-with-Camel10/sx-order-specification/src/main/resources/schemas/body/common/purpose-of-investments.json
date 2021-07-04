@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "carpChanged": {
+            "type": "boolean"
+        },
+        "cashAddedOrWithdraw": {
+            "type": "boolean"
+        },
+        "other": {
+            "type": "boolean"
+        },
+        "portfolioRebalancing": {
+            "type": "boolean"
+        }
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "isin": {
+            "type": "string"
+        },
+        "internalCode": {
+            "type": "string"
+        },
+        "ticker": {
+            "type": "string"
+        },
+        "type": {
+            "$ref": "id-name.json"
+        },
+        "subType": {
+            "$ref": "id-name.json"
+        },
+        "riskClassification": {
+            "$ref": "id-name.json"
+        },
+        "currency": {
+            "type": "string"
+        },
+        "sector": {
+            "type": "string"
+        },
+        "issuer": {
+            "type": "string"
+        },
+        "issuerCountry": {
+            "type": "string"
+        },
+        "riskCountry": {
+            "type": "string"
+        },
+        "preferedInvestmentUniverse": {
+            "type": "string"
+        },
+        "discretionaryInvestmentUniverse": {
+            "type": "string"
+        },
+        "productRiskClassification": {
+            "$ref": "id-name.json"
+        },
+        "strategy": {
+            "type": "string"
+        },
+        "fundsType": {
+            "type": "string"
+        },
+        "isUbpProduct": {
+            "type": "boolean"
+        },
+        "shareClass": {
+            "type": "string"
+        },
+        "rating": {
+            "type": "string"
+        },
+        "underlyingIsin": {
+            "type": "string"
+        },
+        "underlyingName": {
+            "type": "string"
+        },
+        "optionStyle": {
+            "enum": [
+                "American",
+                "European"
+            ],
+            "type": "string"
+        },
+        "optionClass": {
+            "enum": [
+                "Put",
+                "Call"
+            ],
+            "type": "string"
+        },
+        "subtypeRisk": {
+            "type": "string"
+        },
+        "exchangeMarketPlace": {
+            "$ref": "id-name.json"
+        },
+        "contractSize": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "minimumQuantity": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "increment": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "pricingMethod": {
+            "type": "string"
+        },
+        "issueDate": {
+            "type": "string"
+        },
+        "maturityDate": {
+            "type": "string"
+        },
+        "status": {
+            "type": "string"
+        },
+        "blockingCode": {
+            "type": "string"
+        },
+        "blockingDate": {
+            "type": "string"
+        },
+        "isContingentConvertible": {
+            "type": "boolean"
+        },
+        "isLimitedPatnership": {
+            "type": "boolean"
+        },
+        "isDirectInvestment": {
+            "type": "boolean"
+        },
+        "pricingFrequency": {
+            "type": "string"
+        },
+        "dividendPolicy": {
+            "$ref": "id-name.json"
+        },
+        "subscriptionCutOff": {
+            "type": "string"
+        },
+        "noticePeriodSubscription": {
+            "type": "string"
+        },
+        "redemptionCutOff": {
+            "type": "string"
+        },
+        "noticePeriodRedemption": {
+            "type": "string"
+        },
+        "couponFrequency": {
+            "type": "string"
+        },
+        "rate": {
+            "format": "double",
+            "type": "number"
+        },
+        "yieldToMaturity": {
+            "type": "string"
+        },
+        "duration": {
+            "type": "string"
+        },
+        "nextCallDate": {
+            "type": "string"
+        },
+        "strikePrice": {
+            "type": "string"
+        },
+        "exerciseDate": {
+            "type": "string"
+        },
+        "firstNoticeDate": {
+            "type": "string"
+        },
+        "mifidCategory": {
+            "enum": [
+                "Retail",
+                "OptOutProfessional",
+                "OptInProfessional",
+                "PerSeProfessional",
+                "EligibleCounterparty"
+            ],
+            "type": "string"
+        },
+        "complexity": {
+            "type": "string"
+        },
+        "isReportable": {
+            "type": "boolean"
+        },
+        "isPriipsInScope": {
+            "type": "boolean"
+        },
+        "forbiddenNationalities": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "usTax": {
+            "type": "string"
+        },
+        "us871": {
+            "type": "string"
+        },
+        "dutyToDisclose": {
+            "type": "string"
+        },
+        "isFinmaRegistered": {
+            "type": "boolean"
+        },
+        "isForQualifiedInvestorOnly": {
+            "type": "boolean"
+        },
+        "isUcits": {
+            "type": "boolean"
+        },
+        "subjectToTraspaso": {
+            "type": "boolean"
+        },
+        "ubpClassification": {
+            "$ref": "id-name.json"
+        },
+        "lastPrice": {
+            "format": "double",
+            "type": "number"
+        },
+        "lastPriceDate": {
+            "type": "string"
+        },
+        "fenicsDealNumbers": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

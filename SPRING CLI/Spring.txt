@@ -1,0 +1,45 @@
+SPRING:
+-open source Java platform
+-written by Rod Johnson
+-Benefits:
+	-lightweight when it comes to size and transparency
+	-Lightweight IoC containers tend to be lightweight compared to EJB containers.
+	This is beneficial for developing and deploying applications on computers with limited memory and CPU resources.
+	-well-designed web MVC framework, which provides a great alternative to web frameworks
+	-Testing an application written with Spring is simple because environment-dependent code is moved into this framework
+-Dependency Injection (DI):
+	-merely one concrete example of Inversion of Control.
+	-the heart of Spring Framework
+	-classes should be as independent of other Java classes to increase the possibility to reuse these classes and
+	to test them independently of other classes while unit testing.
+-Aspect Oriented Programming (AOP):
+		-The key unit of modularity in OOP is the class, whereas in AOP the unit of modularity is the aspect like DI. 
+		-allowing you to define method-interceptors and pointcuts to cleanly decouple code that implements functionality
+		that should be separated.
+-Spring Framework - Architecture:
+	-Core Container:Core, Bean , Context, SpEL (expression language)
+	-Data Access/Integration:JDBC ,OXM ,JMS ,Transaction 
+	-Web(MVC/Remoting): Web ,Web-MVC,Web-Socket ,Web-Portlet
+	-Miscellaneous: AOP ,Aspects ,Instrumentation ,Messaging ,Test 
+- IoC Containers:
+	-at the core of the Spring Framework. 
+	-The container will create the objects, wire them together, configure them, and manage their complete life cycle from creation 
+	till destruction.
+	-The Spring container uses DI to manage the components that make up an application. These objects are called Spring Beans
+	-The container gets its instructions on what objects to instantiate, configure, and assemble by reading the configuration metadata 
+	provided by XML, Java annotations, or Java code.
+	-two distinct types of containers: 
+		1)Spring BeanFactory Container: 
+			-simplest container
+			-defined by the org.springframework.beans.factory.BeanFactory interface
+			-The most commonly used BeanFactory implementation is the XmlBeanFactory class
+			-BeanFactory is usually preferred where the resources are limited like mobile devices or applet-based applications
+		2)Spring ApplicationContext Container:
+			-Spring's advanced container
+			-defined by org.springframework.context.ApplicationContext interface.
+			-adds more enterprise-specific functionality such as the ability to resolve textual messages 
+				from a properties file and the ability to publish application events to interested event listeners.
+				a)FileSystemXmlApplicationContext :need to provide the full path of the XML bean configuration file to the constructor
+				b)ClassPathXmlApplicationContext :do not need to provide the full path of the XML file but you need to set CLASSPATH properly
+					because this container will look like bean configuration XML file in CLASSPATH.
+				c)WebXmlApplicationContext : loads the XML file with definitions of all beans from within a web application

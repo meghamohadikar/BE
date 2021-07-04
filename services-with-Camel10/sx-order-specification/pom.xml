@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>backbase-spec-starter-parent</artifactId>
+        <groupId>com.backbase.buildingblocks</groupId>
+        <version>7.2.0</version>
+        <relativePath />
+    </parent>
+
+    <groupId>com.backbase.ubp.pb360</groupId>
+    <artifactId>sx-order-specification</artifactId>
+    <version>0.9.0-SNAPSHOT</version>
+    <name>Backbase :: Digital Banking Services :: sx-order-specification</name>
+
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <name>nexus-releases</name>
+            <url>${env.MAVEN_REPO_URL}/repository/ubp-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>nexus-snapshots</name>
+            <url>${env.MAVEN_REPO_URL}/repository/ubp-snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <properties>
+        <codegen.serviceName>ubp.pb360</codegen.serviceName>
+        <sonar.skip>true</sonar.skip>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.backbase.codegen</groupId>
+                <artifactId>raml-api-maven-plugin-1-0</artifactId>
+                <configuration>
+                    <inputFile>src/main/resources/api.raml</inputFile>
+                    <outputFile>target/generated-sources</outputFile>
+                    <packageName>${codegen.serviceName}</packageName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

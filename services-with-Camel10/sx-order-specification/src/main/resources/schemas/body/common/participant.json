@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "birthdate": {
+            "type": "string"
+        },
+        "code": {
+            "type": "string"
+        },
+        "company": {
+            "type": "string"
+        },
+        "experienceLevel": {
+            "format": "double",
+            "type": "number"
+        },
+        "firstName": {
+            "type": "string"
+        },
+        "hasSignaturePower": {
+            "type": "boolean"
+        },
+        "homeCountry": {
+            "type": "string"
+        },
+        "id": {
+            "format": "int32",
+            "type": "integer"
+        },
+        "isRepresentative": {
+            "type": "boolean"
+        },
+        "knowledgeLevel": {
+            "format": "double",
+            "type": "number"
+        },
+        "knowledgesAndExperiences": {
+            "$ref": "knowledges-and-experiences.json"
+        },
+        "lastName": {
+            "type": "string"
+        },
+        "mifidCategory": {
+            "type": "string"
+        },
+        "personType": {
+            "enum": [
+                "PP",
+                "PM"
+            ],
+            "type": "string"
+        },
+        "portfolioCode": {
+            "type": "string"
+        },
+        "portfolioNumber": {
+            "type": "string"
+        },
+        "roles": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "signature": {
+            "type": "string"
+        }
+    }
+}

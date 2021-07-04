@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-aop-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-aspects-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-beans-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-context-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-context-support-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-core-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-expression-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-instrument-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-instrument-tomcat-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-jdbc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-jms-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-messaging-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-orm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-oxm-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-test-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-tx-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-web-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-webmvc-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-webmvc-portlet-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/mmohadik/Desktop/jar/spring-websocket-4.1.6.RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

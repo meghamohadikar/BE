@@ -1,0 +1,23 @@
+{
+    "orderSessionId": "123456",
+    "instructionDetails": {
+        "portfolioCode": "001.000001234567",
+        "origin": "E",
+        "receptionDate": "2019-06-20T07:33:01.196Z",
+        "clientWasAdvised": true,
+        "initiatedByClient": true,
+        "crossBoking": true,
+        "generateCostAndChargesDocuments": true,
+        "marketPlaceSpecifiedByClient": true,
+        "purposeOfInvestments": {
+            "other": true,
+            "portfolioRebalancing": true,
+            "cashAddedOrWithdraw": true,
+            "carpChanged": true
+        },
+        "purposeOfInvestmentsJustification": "string",
+        "selectedSignersCode": [
+            "string"
+        ]
+    }
+}
